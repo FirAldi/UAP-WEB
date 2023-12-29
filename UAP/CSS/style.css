@@ -1,0 +1,16 @@
+#listNovel {
+    width: 50%;
+    margin: 0 0 20px;
+  }
+  
+  #listNovel th,
+  #listNovel td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .code-novel {
+    margin: 20px 0 0;
+  }
+  

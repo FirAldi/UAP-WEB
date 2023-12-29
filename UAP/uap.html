@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasir</title>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <h2>Kasir</h2>
+
+    <table id="listNovel">
+      <thead>
+        <tr>
+          <th>Kode</th>
+          <th>Nama Novel</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+  
+    <table id="inputan">
+      <tr>
+        <td>Masukkan Kode</td>
+        <td>:</td>
+        <td>
+          <input
+            type="text"
+            class="in"
+            id="kodeNovel"
+            placeholder="Masukkan kode novel"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Banyak Novel</td>
+        <td>:</td>
+        <td>
+          <input
+            type="text"
+            class="in"
+            id="banyakNovel"
+            placeholder="Masukkan banyak novel"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button onclick="tambahkanNovel()">Tambah</button>
+        </td>
+      </tr>
+    </table>
+
+    <script src="JS/script.js"></script>
+  </body>
+</html>
